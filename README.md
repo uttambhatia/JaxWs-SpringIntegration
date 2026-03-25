@@ -27,7 +27,7 @@ Table of Contents
 
 1 Product Overview
 
-The AI-Driven Test Case Generator Utility is an internal BCCH F2B Digital Testing solution that automates the end-to-end process of creating comprehensive test cases from requirements originating from multiple systems such as GitLab, Squash, Word, and PDF documents.
+The AI-Driven Test Case Generator Utility is an internal BCCH  Digital Testing solution that automates the end-to-end process of creating comprehensive test cases from requirements originating from multiple systems such as GitLab, Squash, Word, and PDF documents.
 It supports structured, unstructured, multilingual (including Chinese), and visually rich requirement formats.
 
 The product not only generates test cases but also evaluates requirement quality, recommends improvements, and ensures regression packs stay updated.
@@ -49,7 +49,7 @@ Dependent on tester experience and interpretation
 Difficult when requirements come in inconsistent formats, languages, or levels of detail
 
 Regression packs become outdated quickly, requiring manual effort to identify impacted tests.
-The lack of standardization and speed slows down F2B delivery and leads to test execution delays. Teams need an AI-powered solution to ensure faster, more accurate, consistent, and comprehensive testing.
+The lack of standardization and speed slows down delivery and leads to test execution delays. Teams need an AI-powered solution to ensure faster, more accurate, consistent, and comprehensive testing.
 
 3 MVP ( 13th March 2026 )
 
@@ -57,7 +57,7 @@ The lack of standardization and speed slows down F2B delivery and leads to test 
 
 Code snippet
 graph TD
-    A[User requests access via MyApps] --> B{Is User in BCCH F2B AD Group?}
+    A[User requests access via MyApps] --> B{Is User in BCCH  AD Group?}
     B -- Yes --> C[Access Granted to Test Genie UI]
     B -- No --> D[Request routed to Line Manager for Approval]
     D -- Approved --> E[IT Security provisions access]
